@@ -3,4 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav {
+    background-color: black;
+    color:white;
+    height:2vh;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+}
 
+nav ul li{
+    list-style: none;
+}
+.gamecontainer{
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+}
+.container{
+    
+    display: grid;
+    grid-template-columns: repeat(3,9vw);
+    grid-template-rows: repeat(3,9vw);
+ 
+
+}
+.box{
+    border: 2px solid black;
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+background-color: aqua;
+}
