@@ -21,13 +21,10 @@ nav ul li{
     justify-content: center;
     gap: 2rem;
 }
-.container{
-    
+.container{    
     display: grid;
     grid-template-columns: repeat(3,9vw);
     grid-template-rows: repeat(3,9vw);
- 
-
 }
 .box{
     border: 2px solid black;
