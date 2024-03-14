@@ -1,3 +1,3 @@
-let boxtext = document.getElementsByClassName("boxtext");
+let boxtext = document.getElementsByClassName('boxtext');
 
-boxtext
+boxtext.addEventlistener()
