@@ -11,4 +11,5 @@ Array.from(document.getElementsByClassName('boxtext')).forEach((element)=>{
         turn=!(turn);
 
     })
+    
 })
